@@ -185,7 +185,7 @@ export default function Rainbow() {
   };
 
   return (
-    <div className="min-h-screen  flex items-center justify-center  p-6 bg-gradient-to-tr from-purple-600 via-pink-500 to-yellow-400 ">
+    <div className="w-screen h-screen flex items-center justify-center p-6 bg-gradient-to-tr from-purple-600 via-pink-500 to-yellow-400 ">
       <div className="w-full max-w-5xl rounded-3xl shadow-2xl overflow-hidden grid md:grid-cols-2 backdrop-blur-xl bg-white/10 border border-white/30">
         {/* Left side: Game panel */}
         <div
